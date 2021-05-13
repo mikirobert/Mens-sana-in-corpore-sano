@@ -1,0 +1,24 @@
+h1 {
+    color: #212529;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    color: #212529;
+    font-family: sans-serif;
+    text-align: center;
+}
+h3 {
+    color: #212529;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.row {
+    width:110%;
+    display:flex;
+    justify-content: space-between;
+}
+.row a img{width:75%}

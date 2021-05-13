@@ -1,0 +1,185 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+a:hover {
+    color: #0a58ca;
+}
+.left {
+    float: left!important;
+}
+.right {
+    float: right!important;
+}
+.card {
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%),
+    0 2px 10px 0 rgb(0 0 0 / 12%);
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+}
+.topnav {
+    z-index: 2;
+    font-size: 16px;
+    background-color: #282A35;
+    color: #f1f1f1;
+    padding: 0;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.topnav a {
+    padding: 10px 15px 9px 15px !important;
+}
+.-bar {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+   white-space: normal;
+}
+.-button {
+    user-select: none;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+a.active {
+    background-color: #04AA6D!important;
+    color: #ffffff;
+}
+.-bar-item {
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+.-bar-item:hover{
+    color: #fff;
+    background-color: gray;
+}
+.-bar-item::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+.-bar-item:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+body {
+    background-color: white;
+    margin: 0;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+}
+.meta {
+    display: flex;
+    flex-direction: row;}
+.col {
+    flex: 1 0 0%;
+    padding: 0;
+    margin: 20px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom:0px;
+    width:100%;
+}
+.attribution a {
+    text-decoration: none;
+    color: #000000;
+}
+.titlu {
+    font-family: arial;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #131317,
+    1px 10px 6px rgba(16,16,16,0.4),
+    1px 15px 30px rgba(16,16,16,0.4);
+}
+.textuleanu {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+hr {
+  height: 3px;
+  border-width: 0px;
+  color: gray;
+  background-color: gray;
+}
+.textuleanu2 {
+  margin-left: 50px;
+  margin-right: 263px;
+}
+.textuleanu3 {
+  margin-left: 75px;
+  margin-right: 300px;
+}
+h3 {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 25px;
+    background: white;
+}
+.textuleanu2 h1{
+    color: #04AA6D;  
+    text-shadow: 3px 3px 1px #131317,
+    1px 2px 1px rgba(16,16,16,0.4),
+    1px 5px 15px rgba(16,16,16,0.4);
+}
+.textuleanu2 h2{
+    color:#fff;
+    text-shadow: 3px 3px 1px #131317,
+    1px 3px 1px rgba(16,16,16,0.4),
+    1px 5px 15px rgba(16,16,16,0.4);
+}
+.textuleanu2 ul li{
+    font-size:20px;
+}
+.textuleanu2 ul {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 30px;
+    border-radius: 25px;
+    background: white;
+}
+.js {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+    padding: 15px;
+    color: #212529;
+}
+.js2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+    padding: 30px;
+    color: #212529;
+
+}
